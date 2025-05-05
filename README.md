@@ -1,8 +1,15 @@
-# a6ygale.github.io
-an extension of my academic journey
+# Electrical Engineer 
 
-## electromagnetism
+## Eductaion
+B.S. Physics, UF
+Minor in Electrical Engineering, UF
 
-## projects
+
+## Classwork
+programming I for Electrical Engineers
+Programming II for electrical Engineers
+Advanced Lab II
+
+## Personal Projects
 ### ADSB
 ### 433MHZ Arduino Transmitter/Receiver
