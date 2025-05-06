@@ -17,6 +17,7 @@
 
 
 ### Advanced Lab II
+- [Final Presentation - Nuclear Magnetic Resonance](https://drive.google.com/drive/u/0/folders/1I_DIUWnkdKj0tCyeBh5eXNUDz5tmmbVd)
 
 ### Optics
 - [Final Presentation - Holography](https://docs.google.com/presentation/d/19Jo9PIW5ZF9VZi4H9p8phfaJDzBp4fLY/edit?usp=sharing&ouid=103744567988756133981&rtpof=true&sd=true)
