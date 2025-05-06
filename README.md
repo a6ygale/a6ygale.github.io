@@ -18,8 +18,8 @@
 - [Final Presentation - Holography](https://docs.google.com/presentation/d/19Jo9PIW5ZF9VZi4H9p8phfaJDzBp4fLY/edit?usp=sharing&ouid=103744567988756133981&rtpof=true&sd=true)
 
 ## Integrative Mechano-Biology Lab 
-### NanoDay 2023 Presentation
-### [Weibo Presentation](https://github.com/a6ygale/a6ygale.github.io/blob/main/assets/img/WEBiO%20presentation.pptx)
+#### [NanoDay 2023 Presentation](https://docs.google.com/presentation/d/16tzIVDUpMk8s4q18WKJwFUfhQzm4VMU3/edit?slide=id.p1#slide=id.p1)
+#### [Weibo Presentation](https://github.com/a6ygale/a6ygale.github.io/blob/main/assets/img/WEBiO%20presentation.pptx)
 
 
 ## Personal Projects
