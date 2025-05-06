@@ -17,14 +17,17 @@
 
 
 ### Advanced Lab II
+- Lab Report - X-ray Spectroscopy
+- Lab Report - Visible Spectroscopy
+- Lab Report - Superfluid Helium
 - [Final Presentation - Pulsed Nuclear Magnetic Resonance](https://docs.google.com/presentation/d/1pHcAVXH9ZDpeaIiw2J9eQhSS1wjrTK2e/edit?slide=id.p1#slide=id.p1)
 
 ### Optics
 - [Final Presentation - Holography](https://docs.google.com/presentation/d/19Jo9PIW5ZF9VZi4H9p8phfaJDzBp4fLY/edit?usp=sharing&ouid=103744567988756133981&rtpof=true&sd=true)
 
 ## Integrative Mechano-Biology Lab 
-#### [NanoDay 2023 Presentation](https://docs.google.com/presentation/d/16tzIVDUpMk8s4q18WKJwFUfhQzm4VMU3/edit?slide=id.p1#slide=id.p1)
-#### [Weibo Presentation](https://github.com/a6ygale/a6ygale.github.io/blob/main/assets/img/WEBiO%20presentation.pptx)
+- [NanoDay 2023 Presentation](https://docs.google.com/presentation/d/16tzIVDUpMk8s4q18WKJwFUfhQzm4VMU3/edit?slide=id.p1#slide=id.p1)
+- [Weibo Presentation](https://github.com/a6ygale/a6ygale.github.io/blob/main/assets/img/WEBiO%20presentation.pptx)
 
 
 ## Personal Projects
