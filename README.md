@@ -6,7 +6,8 @@
 
 
 ## Classwork
-### programming I for Electrical Engineers
+### Programming I for Electrical Engineers
+- [Assignments](https://github.com/a6ygale/Programming-I)
 ### Programming II for Electrical Engineers (DSA)
 - [Homework Functions](https://github.com/a6ygale/Programming-II/tree/main)
 - [Excursion 1](https://github.com/a6ygale/Excursion-1) : Group project to determine current and voltage values within nodes of circuit by automatically computing KVL/KCL equations. 
