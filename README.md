@@ -8,10 +8,12 @@
 ## Classwork
 ### Programming I for Electrical Engineers
 - [Assignments](https://github.com/a6ygale/Programming-I)
+  
 ### Programming II for Electrical Engineers (DSA)
 - [Homework Functions](https://github.com/a6ygale/Programming-II/tree/main)
 - [Excursion 1](https://github.com/a6ygale/Excursion-1) : Group project to determine current and voltage values within nodes of circuit by automatically computing KVL/KCL equations. 
-- [Excurison 2](https://github.com/a6ygale/Excursion-2/tree/prototype) : Group project dedicated to calculating minimum cost of logic gate circuits by implementing NAND/NOR equivalent trees. 
+- [Excurison 2](https://github.com/a6ygale/Excursion-2/tree/prototype) : Group project dedicated to calculating minimum cost of logic gate circuits by implementing NAND/NOR equivalent trees.
+  
 ### Advanced Lab II
 
 ### Optics
