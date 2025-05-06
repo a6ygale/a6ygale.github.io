@@ -7,8 +7,8 @@
 
 ## Classwork
 - programming I for Electrical Engineers
-- Programming II for electrical Engineers
-[Excurison 2] https://www.youtube.com/watch?v=D9CLhQdLp8w
+- Programming II for Electrical Engineers
+[Excurison 2] https://github.com/a6ygale/Excursion-2/tree/prototype
 - Advanced Lab II
 
 ## Personal Projects
