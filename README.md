@@ -27,9 +27,11 @@
 
 ## Integrative Mechano-Biology Lab 
 - [NanoDay 2023 Presentation](https://docs.google.com/presentation/d/16tzIVDUpMk8s4q18WKJwFUfhQzm4VMU3/edit?slide=id.p1#slide=id.p1)
-- [Weibo Presentation](https://github.com/a6ygale/a6ygale.github.io/blob/main/assets/img/WEBiO%20presentation.pptx)
+- [Weibo Presentation](https://docs.google.com/presentation/d/11BPAZIEaXcrfx8lT12a-w9wwKtHo7rUT/edit?slide=id.p1#slide=id.p1)
 
 
 ## Personal Projects
-### ADSB
-### 433MHZ Arduino Transmitter/Receiver
+- ADSB
+- 433MHZ Arduino Transmitter/Receiver
+- Yagi-Uda
+  
