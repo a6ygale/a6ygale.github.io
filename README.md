@@ -1,6 +1,6 @@
 # Electrical Engineer 
 
-## Eductaion
+## Education
 - B.S. Physics, UF
 - Minor in Electrical Engineering, UF
 
