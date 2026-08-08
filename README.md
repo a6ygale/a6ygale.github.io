@@ -25,7 +25,7 @@
 
 ### Optics
 - [Final Presentation - An Overview of Holography](https://docs.google.com/presentation/d/19Jo9PIW5ZF9VZi4H9p8phfaJDzBp4fLY/edit?usp=sharing&ouid=103744567988756133981&rtpof=true&sd=true)
-- 
+  
 ### Programming I for Electrical Engineers
 - [Assignments](https://github.com/a6ygale/Programming-I)
 
