@@ -19,7 +19,7 @@
 
 ### Advanced Lab II
 - Lab Report - X-ray Spectroscopy
-- Lab Report - Visible Spectroscopy
+- [Lab Report - Visible Spectroscopy](https://github.com/a6ygale/a6ygale.github.io/blob/e48084873c3d6cbe24a312a6f62ba95a856d1ee0/assets/img/Visible_Spectroscopy%20(1).pdf)
 - Lab Report - Superfluid Helium
 - [Final Presentation - Pulsed Nuclear Magnetic Resonance](https://docs.google.com/presentation/d/1pHcAVXH9ZDpeaIiw2J9eQhSS1wjrTK2e/edit?slide=id.p1#slide=id.p1)
 
