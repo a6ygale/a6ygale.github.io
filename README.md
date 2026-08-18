@@ -7,7 +7,7 @@
 - The Significance of the Fourier Transform in Far-Field Patterns
 
 ## Integrative Mechano-Biology Lab 
-<img src="assets/img/poster.png" alt="labview" width="350">;
+<img src="assets/img/poster.png" alt="labview" width="375">;
 <img src="assets/img/labview.png" alt="labview" width="350">;
 
 - [NanoDay 2023 Presentation](https://docs.google.com/presentation/d/16tzIVDUpMk8s4q18WKJwFUfhQzm4VMU3/edit?slide=id.p1#slide=id.p1)
