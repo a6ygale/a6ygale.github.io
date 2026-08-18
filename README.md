@@ -1,8 +1,9 @@
 # Electrical Engineer 
 
 ## Personal Projects
-
+<img src="assets/img/moxonyagiHVCuts.png" alt="labview" width="400">;
 - [Moxon-Yagi Antenna](assets/img/Moxon_Yagi_Antenna.pdf)
+- <img src="assets/img/gratingLobes.png" alt="labview" width="400">;
 - Grating Lobe Derivation & Impacts on Phased Arrays
 - The Significance of the Fourier Transform in Far-Field Patterns
 
