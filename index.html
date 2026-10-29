@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b14">
+  <meta name="description" content="Abygale Cochrane — computational electromagnetics, RF systems, and engineered wavefronts.">
+  <title>Abygale Cochrane — Research Portfolio</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script defer src="assets/js/site.js"></script>
+  <script defer src="assets/js/array-lab.js"></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Abygale Cochrane home"><span class="brand-mark">A<span>·</span>C</span><span class="brand-name">ABYGALE COCHRANE<small>RESEARCH PORTFOLIO</small></span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation"><span></span><span></span></button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+      <a class="active" href="index.html">Overview</a><a href="research.html">Research</a><a href="projects.html">Projects</a><a href="notes.html">Field Notes</a><a href="about.html">About</a><a class="nav-cta" href="cv.html">CV ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse-dot"></span> COMPUTATION · ELECTROMAGNETICS · SENSING</p>
+        <h1>Engineering<br>the <em>invisible.</em></h1>
+        <p class="hero-lede">I explore how computationally engineered electromagnetic waves can expand what wireless systems are able to sense, resolve, and communicate.</p>
+        <div class="hero-actions"><a class="button button-primary" href="projects.html">Explore the work <span>↗</span></a><a class="text-link" href="research.html">Research interests <span>→</span></a></div>
+        <div class="hero-meta"><span><i></i> RF & applied electromagnetics</span><span>Independent simulations · Research notes</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Animated electromagnetic wave visualization">
+        <div class="visual-top"><span>FIELD / 001</span><span class="live-label"><i></i> LIVE VISUALIZATION</span></div>
+        <canvas id="wave-canvas" aria-label="Animated wavefronts moving through a field"></canvas>
+        <div class="visual-caption"><span>WAVEFRONT STUDY</span><span>φ(x,y,t) / 2π</span></div>
+        <div class="crosshair crosshair-a"></div><div class="crosshair crosshair-b"></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Research themes"><div class="ticker-track"><span>COMPUTATIONAL EM</span><b>✳</b><span>PHASED ARRAYS</span><b>✳</b><span>WAVEFRONT ENGINEERING</span><b>✳</b><span>RF PROPAGATION</span><b>✳</b><span>HIGH-RESOLUTION SENSING</span><b>✳</b><span>COMPUTATIONAL EM</span><b>✳</b><span>PHASED ARRAYS</span><b>✳</b><span>WAVEFRONT ENGINEERING</span><b>✳</b></div></section>
+
+    <section class="shell section-block">
+      <div class="section-heading"><div><p class="eyebrow">01 / RESEARCH DIRECTIONS</p><h2>New degrees of <em>freedom.</em></h2></div><a class="text-link" href="research.html">All research areas ↗</a></div>
+      <div class="feature-grid">
+        <a class="feature-card" href="research.html#computational-em"><span class="card-index">R / 01</span><div class="card-art art-grid"><div class="art-wave"></div></div><h3>Computational electromagnetics</h3><p>Using mathematical models and numerical methods to understand and shape electromagnetic behavior.</p><span class="card-arrow">↗</span></a>
+        <a class="feature-card" href="research.html#arrays"><span class="card-index">R / 02</span><div class="card-art art-array"><div class="array-dots"></div></div><h3>Adaptive arrays & beamforming</h3><p>Exploring how element geometry, phase, and amplitude shape radiation patterns and nulls.</p><span class="card-arrow">↗</span></a>
+        <a class="feature-card" href="research.html#wavefronts"><span class="card-index">R / 03</span><div class="card-art art-rings"><div></div></div><h3>Engineered wavefronts</h3><p>Investigating wavefront structure as an additional design space for sensing and communication.</p><span class="card-arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="sim-section">
+      <div class="shell">
+        <div class="section-heading"><div><p class="eyebrow">02 / INTERACTIVE FIELD LAB</p><h2>Build a beam. <em>See the field.</em></h2><p class="section-intro">Adjust a synthetic linear array and watch its normalized array factor update in real time. This is an illustrative simulation, not measured hardware data.</p></div><span class="section-tag">BROWSER-BASED DEMO</span></div>
+        <div class="simulator">
+          <div class="sim-controls">
+            <div class="control-head"><span>ARRAY PARAMETERS</span><span class="status-chip"><i></i> RUNNING</span></div>
+            <label for="elements">Number of elements <output id="elements-value">8</output></label><input id="elements" type="range" min="4" max="20" step="1" value="8">
+            <label for="spacing">Element spacing <output id="spacing-value">0.50 λ</output></label><input id="spacing" type="range" min="0.25" max="1.25" step="0.05" value="0.5">
+            <label for="steer">Steering angle <output id="steer-value">25°</output></label><input id="steer" type="range" min="-60" max="60" step="1" value="25">
+            <label for="frequency">Display frequency <output id="frequency-value">10 GHz</output></label><input id="frequency" type="range" min="1" max="100" step="1" value="10">
+            <button id="reset-sim" class="button button-quiet" type="button">↺ Reset parameters</button>
+            <p class="micro-note">Ideal isotropic elements · Uniform amplitude · Far-field array factor</p>
+          </div>
+          <div class="sim-plot">
+            <div class="plot-head"><span>AZIMUTH CUT / NORMALIZED MAGNITUDE</span><span id="sim-readout">N = 8 · d = 0.50λ</span></div>
+            <canvas id="pattern-canvas" aria-label="Interactive normalized linear array factor plot"></canvas>
+            <div class="plot-legend"><span><i class="legend-line"></i> Array factor (normalized)</span><span>θ / degrees</span></div>
+            <div class="sim-metrics"><div><small>ELEMENT COUNT</small><strong id="metric-elements">08</strong></div><div><small>SPACING</small><strong id="metric-spacing">0.50 λ</strong></div><div><small>STEER ANGLE</small><strong id="metric-steer">+25°</strong></div><div><small>MODEL</small><strong>IDEAL 1D</strong></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell section-block">
+      <div class="section-heading"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>From equations to <em>experiments.</em></h2></div><a class="text-link" href="projects.html">Project archive ↗</a></div>
+      <div class="project-list">
+        <a class="project-row" href="projects.html#beamforming"><span class="project-number">01</span><span class="project-main"><strong>Sparse-array beamforming</strong><small>Independent computational study · In development</small></span><span class="project-tags">OPTIMIZATION / RF</span><span class="row-arrow">↗</span></a>
+        <a class="project-row" href="projects.html#moxon-yagi"><span class="project-number">02</span><span class="project-main"><strong>Moxon–Yagi antenna</strong><small>Antenna design and modeling</small></span><span class="project-tags">ANTENNAS</span><span class="row-arrow">↗</span></a>
+        <a class="project-row" href="projects.html#propagation"><span class="project-number">03</span><span class="project-main"><strong>RF propagation modeling</strong><small>Professional experience · Public-safe summary</small></span><span class="project-tags">PROPAGATION</span><span class="row-arrow">↗</span></a>
+        <a class="project-row" href="projects.html#microscopy"><span class="project-number">04</span><span class="project-main"><strong>Microscopy control & image processing</strong><small>Integrative mechanobiology research</small></span><span class="project-tags">LABVIEW / OPTICS</span><span class="row-arrow">↗</span></a>
+      </div>
+      <div class="callout"><div><p class="eyebrow">THE RESEARCH LOG</p><h3>Thinking out loud, in equations.</h3><p>Derivations, technical notes, and presentations — organized as a growing reference library.</p></div><a class="button button-secondary" href="notes.html">Browse field notes ↗</a></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><a class="brand" href="index.html"><span class="brand-mark">A<span>·</span>C</span><span class="brand-name">ABYGALE COCHRANE<small>RESEARCH PORTFOLIO</small></span></a><span>Built for curiosity. Updated as the work evolves.</span><div class="footer-links"><a href="https://github.com/a6ygale" target="_blank" rel="noreferrer">GitHub ↗</a><a href="cv.html">CV ↗</a></div></div></footer>
+</body>
+</html>
